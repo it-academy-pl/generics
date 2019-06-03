@@ -2,9 +2,12 @@ package pl.itacademy;
 
 import java.util.*;
 
-public class Box<T> extends Thing {
+// Below <> means that the user may only create Box<Thing> Box<Tool> Box<Toy> Box<Food> 
+// but not Box<Integer> for example.
+public class Box<T extends Thing> {
 	static int index = 1;
-
+	private int number;
+	
 	Box() {
 		number = index;
 		index++;
@@ -22,7 +25,7 @@ public class Box<T> extends Thing {
 
 	@Override
 	public String toString() {
-		return super.toString() + contents.toString();
+		return "Box " + number + contents.toString();
 	}
 
 }
