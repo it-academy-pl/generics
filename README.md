@@ -28,5 +28,4 @@ From this lesson you will get chance to practice on creating classes with generi
 * Create boxes for the items and put all the items inside
 * Create two shelves and add boxex to them.
 * Create a room and add shelves to room.
-8. Think how to make Shelves possible to handle only food or non-food items?
-9. Commit and push your changes to remote repository.
+8. Think how to make Shelves possible to handle only food or non-food items? Try to do it.
