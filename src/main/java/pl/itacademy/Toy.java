@@ -1,6 +1,6 @@
 package pl.itacademy;
 
-public class Toy extends Thing{
+public class Toy extends Other{
 	static int index = 1;
 	private int number;
 	
