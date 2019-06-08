@@ -21,3 +21,8 @@ hs_err_pid*
 *.iws
 *.iml
 *.ipr
+
+# other
+*.classpath
+*.project
+/.settings/
